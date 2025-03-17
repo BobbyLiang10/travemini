@@ -1,4 +1,4 @@
-!pip install streamlit google-generativeai python-dotenv pathlib
+pip install streamlit google-generativeai python-dotenv pathlib
 
 # Import the libraries
 from dotenv import load_dotenv
