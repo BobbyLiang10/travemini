@@ -20,7 +20,7 @@ def get_response(prompt, input):
 # Initialize Streamlit app
 st.set_page_config(page_title = "Travemini, your AI Travel Agent.")
 
-st.title(":briefcase: Trip Planner")
+st.title(":briefcase: Welcome to Travemini, your personal AI Travel agent!")
 st.sidebar.success("Choose one of our travel assistants!")
 st.write("Travemini uses Google Gemini to help create a personal travel plan and provide travel tips for your destination!")
 st.write("To start, input your location, number of days, and anticipated budget to obtain your personal itinerary. Feel free to include any other information to our bot and we will gladly tailor our response to your request.")
