@@ -27,9 +27,7 @@ Input: Travel destination, number of guests, budget, number of nights. (Ex. Toro
 Input: Travel destination (optional: type of cuisine) (Ex. Amsterdam, local cafes)
 <br> Output: Returns three top rated restaurants separated into three categories (budget, mid-tier, fancy) and what to order there.
 
-<br>
-
-## 🥳 Hope this website helps with your travel planning. Happy travels!
+### 🥳 Hope this website helps with your travel planning. Happy travels!
 
 
 
