@@ -1,1 +1,3 @@
-# ai-travel-planner-app
+# :briefcase: Travemini
+
+## Welcome to Travemini, your AI travel agent!
