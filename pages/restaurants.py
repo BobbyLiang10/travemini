@@ -22,7 +22,7 @@ st.set_page_config(page_title = "Travemini, your AI Travel Agent.")
 
 st.title(":yum: Restaurant Finder")
 st.sidebar.success("Choose one of our travel assistants!")
-st.write("Restaurant Finder helps determine the most delicious cuisines in your area! Just input your destination and Restaurant Finder will find you the best culinary tastes the area has to offer. Eating on a budget or fancying fine dining? Restaurant Finder will provide three restaurants for each price category and recommend their best-sellers! Feel free to tell us what types of dishes you are craving and our bot will find something that matches your taste buds!")
+st.write("Restaurant Finder helps determine the most delicious cuisines in your area! Just input your destination and Restaurant Finder will find you the best culinary tastes the area has to offer. Eating on a budget or fancying fine dining? Restaurant Finder will provide three restaurants for each price category and recommend their best-selling dishes! Feel free to tell us what types of cuisine you are craving and our bot will find something that matches your taste buds!")
 
 # Initialize chat history
 if "messages" not in st.session_state:
