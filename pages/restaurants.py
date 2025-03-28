@@ -36,7 +36,7 @@ for message in st.session_state.messages:
 #########
 
 # Prompt Template
-    # Prompt Template
+
 input_prompt_restaurant = """
     You are a professional food critic and your job is to provide the best restaurants given the location.
     Prioritize the restaurants by their top ratings and recommend what dishes the user should order from the restaurant.

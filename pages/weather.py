@@ -36,7 +36,7 @@ for message in st.session_state.messages:
 #########
 
 # Prompt Template
-    # Prompt Template
+
 input_prompt_weather = """
     You are a professional weather forecaster.
     Your job is to provide a weather forecast given the location, listing the forecast for the next 7 days from the current date, unless explicitly specified.
