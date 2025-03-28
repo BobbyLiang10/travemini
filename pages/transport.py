@@ -36,7 +36,7 @@ for message in st.session_state.messages:
 #########
 
 # Prompt Template
-    input_prompt_transport = """
+input_prompt_transport = """
     You are a professional transportation analyst and your job is to find the most efficient and cost-effective way to get from one place to another. 
     Please indicate all modes of travel to the desired destination, including walking, cycling, scooter, and taxi options if applicable.
     If the walking distance is more than one hour, don't display this as one of your options.

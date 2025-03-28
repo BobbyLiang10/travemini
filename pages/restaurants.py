@@ -37,7 +37,7 @@ for message in st.session_state.messages:
 
 # Prompt Template
     # Prompt Template
-    input_prompt_restaurant = """
+input_prompt_restaurant = """
     You are a professional food critic and your job is to provide the best restaurants given the location.
     Prioritize the restaurants by their top ratings and recommend what dishes the user should order from the restaurant.
     Categorize the restaurants in three price ranges: low, medium, and high, and recommend three restaurants per category.
