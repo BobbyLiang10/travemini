@@ -31,7 +31,7 @@ weather_page = st.Page(
 transport_page = st.Page(
     page="pages/transport.py",
     title="Transport Bot",
-    icon="🚗"
+    icon="🚌"
 )
 
 hotels_page = st.Page(
@@ -49,3 +49,4 @@ restaurants_page = st.Page(
 pg = st.navigation(pages=[planner_page, weather_page, transport_page, hotels_page, restaurants_page])
 
 pg.run()
+
