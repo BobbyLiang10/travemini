@@ -20,7 +20,7 @@ def get_response(prompt, input):
 # Initialize Streamlit app
 st.set_page_config(page_title = "Travemini, your AI Travel Agent.")
 
-st.title(":car: Transport Bot")
+st.title(":bus: Transport Bot")
 st.sidebar.success("Choose one of our travel assistants!")
 st.write("Transport Bot helps determine the best method of transportation from point A to point B! Just input your origin and destination and Transport Bot will consider all modes of transportation and determine the most optimal time and cost efficient way of travelling!")
 
@@ -63,4 +63,5 @@ if input_plan:
     response = get_response(input_prompt_transport, input_plan)
     with st.chat_message("assistant"):
         st.write(response)
+
     st.session_state.messages.append({"chat": "transport", "role": "assistant", "content": response})
